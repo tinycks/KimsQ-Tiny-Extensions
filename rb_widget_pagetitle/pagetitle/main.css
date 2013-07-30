@@ -1,0 +1,24 @@
+.pagetitle_widget {
+    margin-bottom: 30px;
+}
+.pagetitle_widget h4 {
+    font-size: 19px;
+}
+.pagetitle_widget .share {
+    float: right;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+.pagetitle_widget .pagetitle {
+    
+}
+.pagetitle_widget .clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
