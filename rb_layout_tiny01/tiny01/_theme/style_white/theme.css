@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/* style_white */
+
+#header {
+}
+#header .wrap {
+}
+#header .logo {
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#header .logo ._logo_img {
+}
+#header .logo ._logo_img img {
+}
+#header .logo ._logo_txt {
+    padding: 0;
+    margin: 0;
+}
+#header .logo ._logo_txt a {
+}
+
+#header .login {
+    float: right;
+    position: relative;
+}
+#header .login a {
+}
+#header .login i {
+    display: inline-block;
+    margin: 0 3px 0 3px;
+    position: relative;
+    top: 1px;
+    width: 1px;
+    height: 11px;
+}
+
+#header .search {
+    float: right;
+    position: relative;
+    margin: 0 0 0 20px;
+}
+#header .search form {
+    display: block;
+    width: 228px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+}
+#header .search .keyword {
+    float: left;
+    padding: 2px 0 0 3px;
+    margin: 3px 0 0 6px;
+    width: 186px;
+    height: 17px;
+    font-size: 11px;
+    font-family: dotum;
+    color: #888888;
+    border: 0;
+    background: #ffffff;
+}
+#header .search .keyword:focus {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: gulim;
+    color: #222222;
+}
+#header .search .sbtn {
+    float: left;
+    padding: 5px;
+    position: relative;
+    top: -1px;
+    left: 4px;
+}
+
+/* 상단 대메뉴 */
+/* Mega Menu Styles */
+.mega-menu ul, .mega-menu ul li {
+    list-style: none;
+}
+.mega-menu ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.mega-menu ul li ul {
+    display: none;
+}
+.mega-menu .sub {
+    display: none;
+}
+.mega-menu .sub ul {
+    display: block;
+}
+
+#mega-menu {
+    font: normal 13px dotum;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+#mega-menu li ul, #mega-menu .sub {
+    display: none;
+}
+#mega-menu .sub ul {
+    display: block;
+}
+#mega-menu {
+    background: #eee;
+    width: 100%;
+    height: 39px;
+    position: relative;
+}
+#mega-menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+#mega-menu li a {
+    float: left;
+    display: block;
+    color: #333;
+    padding: 12px 22px;
+    background: #eee;
+    text-decoration: none;
+}
+#mega-menu li.mega-hover a, #mega-menu li a:hover {
+    background: #ccc;
+    color: #707070;
+}
+#mega-menu li .sub-container {
+    position: absolute;
+}
+#mega-menu li .sub {
+    background: #fbfbfb;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+#mega-menu li .sub .row {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+#mega-menu li .sub li {
+    list-style: none;
+    float: none;
+    width: 170px;
+    font-size: 1em;
+    font-weight: normal;
+}
+#mega-menu li .sub li.mega-hdr {
+    margin: 0 10px 10px 0;
+    float: left;
+}
+#mega-menu li .sub li.mega-hdr.last {
+    margin-right: 0;
+}
+#mega-menu li .sub a {
+    background: none;
+    color: #111;
+    padding: 7px 10px;
+    display: block;
+    float: none;
+    font-size: 0.9em;
+}
+#mega-menu li .sub li.mega-hdr a.mega-hdr-a {
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    background: #ccc;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+#mega-menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+    color: #555;
+}
+#mega-menu .sub li.mega-hdr li a {
+    padding: 4px 5px;
+    font-weight: normal;
+}
+#mega-menu .sub li.mega-hdr li a:hover {
+    color: #9d9d9d;
+    background: #eee;
+}
+#mega-menu .sub ul li {
+    padding-right: 0;
+}
+#mega-menu li .sub-container.non-mega .sub {
+    padding: 10px;
+}
+#mega-menu li .sub-container.non-mega li {
+    padding: 0;
+    width: 190px;
+    margin: 0;
+}
+#mega-menu li .sub-container.non-mega li a {
+    padding: 7px 5px 7px 22px;
+}
+#mega-menu li .sub-container.non-mega li a:hover {
+    color: #9d9d9d;
+    background: #eee;
+}
+
+/* 푸터 */
+
+#footer .wrap {
+    padding: 15px 0 20px 0;
+    border-top: #DEDEDE solid 1px;
+    position: relative;
+}
+#footer .wrap .slinks {
+    float: left;
+}
+#footer .wrap .slinks .elink {
+    padding: 10px 0 15px 0;
+    color: #494949;
+    letter-spacing: 2px;
+}
+#footer .wrap .slinks .elink a {
+    letter-spacing: -1px;
+    color: #666666;
+}
+#footer .wrap .slinks .elink a:hover {
+    color: #9d9d9d;
+    text-decoration: underline;
+}
+#footer .wrap .slinks .address {
+    margin: 5px 0 5px 0;
+    font-family: dotum;
+    font-size: 11px;
+    color: #777;
+}
+#footer .wrap .slinks .copyright {
+    font-family: arial;
+    color: #999999;
+}
