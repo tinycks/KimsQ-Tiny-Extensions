@@ -1,0 +1,5 @@
+.widget_visits {padding:10px;border:#efefef solid 1px;line-height:180%;}
+.widget_visits .tt {font-weight:bold;color:#666;border-bottom:#dfdfdf dotted 1px;padding:0 10px 0 0;margin:0 0 10px 0;}
+.widget_visits ul {list-style-type: none;padding: 0;margin: 0;}
+.widget_visits li {position: relative; color: #717171;}
+.widget_visits li span {float: right;font-weight: bold;font-family: Helvetica;}
