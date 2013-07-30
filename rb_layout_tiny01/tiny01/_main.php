@@ -15,7 +15,14 @@ function getLayoutLogo($layout) {
     }
 }
 
-include $g['path_layout'] . $d['layout']['dir'] . '/_var/_var.php';
+//include $g['path_layout'] . $d['layout']['dir'] . '/_var/_var.php'; //20130730 타이니 : 하나의 사이트에서 레이아웃을 여럿 쓸 때 치명적 오류 수정
+if (isset($_layoutAction)) { include  $g['path_layout'].$nowLayout.'/_var/_var.php'; } else { include  $g['path_layout'].$d['layout']['dir'].'/_var/_var.php'; }
+
+if (isset($_layoutAction)) {
+//    include $g['path_layout'] . $d['layout']['dir'] . '/_action/a.' . $_layoutAction . '.php'; //20130730 타이니 : 하나의 사이트에서 레이아웃을 여럿 쓸 때 치명적 오류 수정
+    include $g['path_layout'] . $nowLayout . '/_action/a.' . $_layoutAction . '.php';
+    exit ;
+}
 
 //20130711 타이니 : 레이아웃 추가페이지 사용 시 코어에서 받쳐주지 못하는 미진한 부분 추가 (메뉴의 이름이 정해지지 않아 여러 문제 발생시킴)
 if (isset($_themePage) && !$_HM['name']) {
@@ -33,12 +40,6 @@ if (isset($_themePage) && !$_HM['name']) {
     }
     $_HM['name'] = $_themePageName;
     $g['location'] .= ' &gt; <a href="' . $g['s'] . '/?r=' . $r . '&_themePage=' . $_themePage . '">' . $_themePageName . '</a>';
-}
-
-if (isset($_layoutAction)) {
-//    include $g['path_layout'] . $d['layout']['dir'] . '/_action/a.' . $_layoutAction . '.php'; //20130730 타이니 : 하나의 사이트에서 레이아웃을 여럿 쓸 때 치명적 오류 수정
-    include $g['path_layout'] . $nowLayout . '/_action/a.' . $_layoutAction . '.php';
-    exit ;
 }
 
 if ($d['layout']['bg_use'])
