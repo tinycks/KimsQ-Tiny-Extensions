@@ -36,7 +36,8 @@ if (isset($_themePage) && !$_HM['name']) {
 }
 
 if (isset($_layoutAction)) {
-    include $g['path_layout'] . $d['layout']['dir'] . '/_action/a.' . $_layoutAction . '.php';
+//    include $g['path_layout'] . $d['layout']['dir'] . '/_action/a.' . $_layoutAction . '.php'; //20130730 타이니 : 하나의 사이트에서 레이아웃을 여럿 쓸 때 치명적 오류 수정
+    include $g['path_layout'] . $nowLayout . '/_action/a.' . $_layoutAction . '.php';
     exit ;
 }
 
