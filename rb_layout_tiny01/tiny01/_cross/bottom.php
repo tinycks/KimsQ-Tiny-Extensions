@@ -27,7 +27,7 @@
                         <a href="http://kimsq.cweb.co.kr" target="_blank">타이니의 KimsQ Lab</a>
                     </li>
                     <li>
-                        <a href="http://www.kimsq.com/" target="_blank">킴스큐</a>
+                        <a href="http://www.kimsq.co.kr/" target="_blank">킴스큐</a>
                     </li>
                     <li>
                         <a href="https://twitter.com/kimsQcom" target="_blank">킴스큐 공식 트위터</a>

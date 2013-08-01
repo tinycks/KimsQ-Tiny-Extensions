@@ -4,7 +4,7 @@
     <br />
     소셜로그인 서비스를 위해서는 소셜링크 모듈을 설치해야 합니다.
     <br />
-    이 모듈은 <a href="http://www.kimsq.com/?r=home&m=qmarket&page=view&uid=26" target="_blank" class="u">킴스큐 마켓</a>에서 구매하실 수 있습니다.
+    이 모듈은 <a href="http://www.kimsq.co.kr/?r=home&m=qmarket&page=view&uid=26" target="_blank" class="u">킴스큐 마켓</a>에서 구매하실 수 있습니다.
     <br />
     <?php if(is_dir($g['path_module'].'social')):
     ?>

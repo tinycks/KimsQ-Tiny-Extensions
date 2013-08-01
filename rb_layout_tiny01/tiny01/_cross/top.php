@@ -96,7 +96,7 @@
         <?php endif ?>
 
         <?php if($d['layout']['contactus_use']):?>
-        <li<?php if($_themePage=='contactus'&&!$_themeConfig):?> class="thispage"<?php endif ?>><a href="<?php echo $g['s']?>/?r=<?php echo $r?>&_themePage=contactus&prelayout=tiny01/main"><?php echo $d['layout']['contactus_name']?></a></li>
+        <li<?php if($_themePage=='contactus'&&!$_themeConfig):?> class="thispage"<?php endif ?>><a href="<?php echo $g['s']?>/?r=<?php echo $r?>&prelayout=tiny01/main&_themePage=contactus"><?php echo $d['layout']['contactus_name']?></a></li>
         <?php endif ?>
         
         <?php if(!$_i):?>
