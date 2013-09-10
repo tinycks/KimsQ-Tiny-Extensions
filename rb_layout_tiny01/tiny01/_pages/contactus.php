@@ -38,7 +38,7 @@
                 <div class="clear"></div>
             </li>
             <li class="clearfix">
-                <label for="message">보내실 내용</label>
+                <label for="message">전하실 내용</label>
                 <textarea name='message' id='message' rows="30" cols="30"></textarea>
                 <div class="clear"></div>
             </li>
