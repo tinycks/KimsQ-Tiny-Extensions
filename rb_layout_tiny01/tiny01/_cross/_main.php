@@ -50,6 +50,10 @@
             $('#featured ul').roundabout({
                 easing : 'easeOutInCirc',
                 duration : 600
+				,autoplay : true, //오토 플레이 설정 true, 비설정 false
+				autoplayInitialDelay : 500, //설정값 milliseconds 후에 오토 플레이 시작, 1000 = 1초
+				autoplayDuration : 3000, //오토 플레이 간격, 1000 = 1초
+				autoplayPauseOnHover : false //마우스 올렸을때 멈추기
             });
         });
     </script>  
