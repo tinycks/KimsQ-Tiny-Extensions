@@ -48,7 +48,7 @@
                         <a href="http://jquery.com/" target="_blank">jQuery</a>
                     </li>
                     <li>
-                        <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a>
+                        <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
                     </li>
                     <li>
                         <a href="http://www.google.com/analytics/" target="_blank">구글 웹로그</a>
