@@ -61,7 +61,7 @@
 <?php if($d['layout']['title'] == "Tiny Layout 01"):?>
         <!-- 안내 메시지 -->
 
-        <h5 class="caption clearfix">반갑습니다 <span>:)</span> 설치하신 <span>타이니</span>의 무료 레이아웃과 함께 <span>KimsQ Rb</span> 홈페이지를 만들어 보세요. <a href="<?php echo $g['s']?>/?r=<?php echo $r?>&amp;_themeConfig=display&amp;prelayout=<?php echo $d['layout']['dir']?>/zone" class="button">레이아웃 꾸미기 바로가기</a><br>이 메시지는 레이아웃 꾸미기 모드 > 세부 설정 페이지에서 홈페이지 제목을 변경하시면 사라집니다.</h5>
+        <h5 class="caption clearfix">반갑습니다 <span>:)</span> 설치하신 <span>타이니</span>의 무료 레이아웃과 함께 <span>kimsQ Rb</span> 홈페이지를 만들어 보세요. <a href="<?php echo $g['s']?>/?r=<?php echo $r?>&amp;_themeConfig=display&amp;prelayout=<?php echo $d['layout']['dir']?>/zone" class="button">레이아웃 꾸미기 바로가기</a><br>이 메시지는 레이아웃 꾸미기 모드 > 세부 설정 페이지에서 홈페이지 제목을 변경하시면 사라집니다.</h5>
 <?php endif ?>
 <?php if($d['layout']['bbs_display']):?>
         <!-- 최근글 추출 -->

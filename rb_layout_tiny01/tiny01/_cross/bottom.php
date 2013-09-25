@@ -24,7 +24,7 @@
                 <a href="#none">패밀리 사이트</a>
                 <ul class="">
                     <li>
-                        <a href="http://kimsq.cweb.co.kr" target="_blank">타이니의 KimsQ Lab</a>
+                        <a href="http://kimsq.cweb.co.kr" target="_blank">타이니의 kimsQ Lab</a>
                     </li>
                     <li>
                         <a href="http://www.kimsq.co.kr/" target="_blank">킴스큐</a>
