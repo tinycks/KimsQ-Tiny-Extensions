@@ -1,3 +1,5 @@
+window.jQuery || alert('jQuery가 로드 되지 않았습니다. jQuery 스위치를 켜세요!');
+
 function showM(m) {
     var box = getId('subMenuBox' + m);
     if (box)
